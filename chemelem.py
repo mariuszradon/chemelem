@@ -1,4 +1,6 @@
-"""Chemical elements with masses and radii"""
+"""Chemical elements with masses and radii
+"""
+
 import argparse
 from importlib.metadata import version, PackageNotFoundError
 try:
@@ -386,9 +388,9 @@ def mass(item):
 
 def covalent_radius(item):
     if isinstance(item, int):
-        return ATOMIC_RADIUS[item]
+        return COVALENT_RADIUS[item]
     else:
-        return ATOMIC_RADIUS[ELEMENT.index(item)]
+        return COVALENT_RADIUS[ELEMENT.index(item)]
 
 
 def chemelem(item):
