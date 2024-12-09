@@ -1,4 +1,8 @@
 """Chemical elements with masses and radii
+
+Very simple package that only implements basic functionalities
+(geting atomic mass or covalent radius for a given element) 
+and loads fast.
 """
 
 import argparse
