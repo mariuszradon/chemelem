@@ -1,5 +1,4 @@
-chemelem
-========
+# chemelem
 Chemical elements with atomic masses and radii
 
 This is a very simple package that only implements basic
