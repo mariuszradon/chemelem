@@ -1,9 +1,9 @@
 # chemelem
 Chemical elements with atomic masses and radii
 
-This is a very simple package that only implements basic
-functionalities (geting atomic mass or covalent radius for a given
-element), but loads faster than advanced alternatives, such as
+This package implements getting atomic masses or covalent radii
+by element or atomic number. It is simpler and loads faster than
+much more advanced alternatives, such as
 [mendeleev](https://pypi.org/project/mendeleev/).
 
 ## Usage
