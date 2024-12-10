@@ -13,17 +13,17 @@ and `chemelem`, which can be indexed by atomic number
 
 * Getting the atomic mass (standard, isotope-weighted atomic weight) in amu:
   ```python
-    import chemelem as ce
-    ce.mass['Cl']
-    ce.mass[17]
+  import chemelem as ce
+  ce.mass['Cl']
+  ce.mass[17]
   ```  
   Both give the same result: `35.47`
 
 * Getting the covalent radius (value in pm):
   ```python
-    import chemelem as ce
-    ce.covalent_radius['Fe']
-    ce.covalent_radius[26]
+  import chemelem as ce
+  ce.covalent_radius['Fe']
+  ce.covalent_radius[26]
   ```
   Both give the same result: `116.0`.
 
