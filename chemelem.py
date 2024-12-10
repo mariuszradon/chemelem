@@ -193,6 +193,7 @@ def main():
     ap = argparse.ArgumentParser(
         prog='chemelem',
         description=__doc__)
+    ap.add_argument('--version', action='version', version='%(prog)s ' + str(__version__))
     ap.add_argument('element', help="element symbol or atomic number")
     args = ap.parse_args()
     if args.element.isdecimal():
