@@ -193,13 +193,10 @@ def main():
     ap = argparse.ArgumentParser(
         prog='chemelem',
         description=__doc__)
-    ap.add_argument('element')
+    ap.add_argument('element', help="element symbol or atomic number")
     args = ap.parse_args()
-    try:
-        x = int(args.element)
-        args.element = x
-    except ValueError:
-        pass
+    if args.element.isdecimal():
+        args.element = int(args.element)
     print(chemelem[args.element])
 
 if __name__ == "__main__":
