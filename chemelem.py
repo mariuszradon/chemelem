@@ -180,7 +180,7 @@ chemelem = DecoratedNormalizedKeyDictionary(
     {i+1: v for i,v in enumerate(data)},
     normalize = lambda key: key if key in element else atomic_number[key],
     decorate = lambda key,value: {
-        'atomic_number': key,
+        'atomic_number': key if key in element else atomic_number[key],
         'symbol': value[0],
         'mass': value[1],
         'covalent_radius': value[2]

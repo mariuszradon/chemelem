@@ -34,7 +34,7 @@ and `chemelem`, which can be indexed by atomic number
   ce.chemelem[17]
   ```
   Both give the same result: 
-  `{'atomic_number': 'Cl', 'symbol': 'Cl', 'mass': 35.45, 'covalent_radius': 99.0}`.
+  `{'atomic_number': 17, 'symbol': 'Cl', 'mass': 35.45, 'covalent_radius': 99.0}`.
 
 * The elements properties can be also obtained using the `chemelem` console script
   ```bash
