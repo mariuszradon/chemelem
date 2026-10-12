@@ -2,9 +2,8 @@
 Chemical elements with atomic masses and radii
 
 This package implements getting atomic masses or covalent radii
-by element or atomic number. It is simpler and loads faster than
-much more advanced alternatives, such as
-[mendeleev](https://pypi.org/project/mendeleev/).
+by element or atomic number. It is intended to be simple and load
+fast.
 
 ## Usage
 The package provides dict-like objects: `mass`, `covalent_radius`, 
